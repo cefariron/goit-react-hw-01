@@ -1,0 +1,27 @@
+.container {
+    width: 350px;
+    margin: 0 auto;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.friendsContainer {
+    display: flex;
+    width: 330px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.avatar {
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.status {
+    text-align: center;
+}
