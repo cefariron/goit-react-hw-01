@@ -1,8 +1,6 @@
 import css from './Profile.module.css';
-console.log(css);
 
 export const Profile = ({ data }) => {
-  console.log(data);
   return (
     <div className={css.profile}>
       <div className={css.description}>
