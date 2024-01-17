@@ -3,7 +3,6 @@
     width: 350px;
 
     border: 1px solid #ddd;
-    /* border-radius: 12px; */
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }
@@ -12,7 +11,7 @@
     padding:20px;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
-    background-color: aliceblue;
+    background-color: rgb(247, 251, 254);
     border-bottom: 1px solid #ddd;
 }
 
@@ -24,6 +23,7 @@
     border-radius: 50%;
     width: 120px;
     height: 120px;
+    border: 1px solid #ddd;
 }
 
 .name,
@@ -43,7 +43,7 @@
 }
 
 .location {
-    color: lightgrey;
+    color: rgb(195, 194, 194);
 }
 
 .stats {

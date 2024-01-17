@@ -12,6 +12,18 @@
     justify-content: space-between;
 }
 
+.title{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.item {
+    border: 1px solid #ededed;
+    padding: 5px;
+    border-radius: 15px;
+}
+
 .avatar {
     margin-bottom: 10px;
 }
@@ -24,4 +36,14 @@
 
 .status {
     text-align: center;
+}
+
+.is-online {
+    text-align: center;
+    color: green;
+}
+
+.is-offline {
+    text-align: center;
+    color: red;
 }

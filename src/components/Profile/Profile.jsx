@@ -12,7 +12,7 @@ export const Profile = ({ data }) => {
           className={css.avatar}
         />
         <p className={css.name}>{data.username}</p>
-        <p className={css.tag}>{data.tag}</p>
+        <p className={css.tag}>@{data.tag}</p>
         <p className={css.location}>{data.location}</p>
       </div>
 
