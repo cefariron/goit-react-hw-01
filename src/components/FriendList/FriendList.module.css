@@ -5,11 +5,12 @@
     border-left: 1px solid #ddd;
 }
 
-.friendsContainer {
+.friendsList {
     display: flex;
     width: 330px;
     padding: 10px;
     justify-content: space-between;
+    list-style: none;
 }
 
 .title{
@@ -39,11 +40,9 @@
 }
 
 .is-online {
-    text-align: center;
     color: green;
 }
 
 .is-offline {
-    text-align: center;
     color: red;
 }
